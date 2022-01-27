@@ -95,6 +95,43 @@ body {
     clear: both;
     margin-top: -30px;
 }
+
+/* Footer */
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+#hours, #address {
+    line-height: 2;
+}
+
+#hours > span, #address > span {
+    font-size: 1.3em;
+}
+
+#address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+
+#testimonials {
+    font-style:  italic;
+}
+
+#testmonials p:nth-child(2){
+    margin-top: 25px;
+}
+
+
 /******** Medium devices only ********/
 @media (min-width: 992px) and (max-width: 1199px) {
     /* HEADER */
@@ -155,6 +192,20 @@ body {
     }
   
      /* END HEADER */
+
+     /* Footer */
+     .panel-footer section {
+         margin-bottom: 30px;
+         text-align: center;
+     }
+
+     .panel-footer section::nth-chil(3) {
+         margin-bottom: 0;
+     }
+
+     .panel-footer section hr {
+         width: 50%;
+     }
 }
 
 /********** SUPER SMALL DEVICES **********/
